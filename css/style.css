@@ -1,4 +1,4 @@
-.square {
+.box {
   width: 100px;
   height: 100px;
 
@@ -6,10 +6,16 @@
   justify-content: center;
   align-items: center;
 
-  background-color: cornflowerblue;
-  color: white;
+  background-color: chocolate;
 
   font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.col {
+  justify-content: center;
+  align-items: center;
 }
 
 .container_square {
@@ -17,5 +23,19 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: #000;
+}
+
+.fizz {
+  background-color: blueviolet;
+  color: white;
+}
+
+.buzz {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.fizzbuzz {
+  background-color: cadetblue;
+  color: white;
 }
